@@ -5,12 +5,15 @@ Here are just a couple of the Openbox pipe menus that I use.
 ## obmail.pl
 
 Display the sender and subject of any unread Gmails. Does not change the status
-of these emails (i.e. they will remain unread).
+of these emails (i.e. they will remain unread). Also checks the local `~/mail`
+folder for any new emails and displays these as well.
 
 Requires the Perl IMAP client module from CPAN, as well as the Perl SSL socket
 module to run correctly. Just edit the file to include your username and
 password, and it should work fine. In theory, it could be used for any IMAP
 email server, but I haven't tested this.
+
+
 
 ## obpacman.pl
 
